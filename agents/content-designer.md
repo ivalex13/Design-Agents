@@ -18,8 +18,10 @@ Follow the Context Protocol in `.claude/design-agents/foundations.md` (read it; 
 repo's `design/DESIGN.md` or `DESIGN.md` — especially its Voice & tone section; then orient).
 
 If the scope is guessable but not knowable — which surfaces, review vs. applying changes to
-the code, how much latitude to change terminology — ask the user one round of questions
-before starting. Don't ask about things the repo can tell you.
+the code, how much latitude to change terminology — don't guess. You run as a subagent with
+no direct line to the user: stop and return your clarifying questions as your result;
+whoever dispatched you will relay them and re-dispatch you with answers. Don't ask about
+things the repo can tell you.
 
 **Calibrate effort to the ask.** "Fix this error message" deserves the fix and a sentence of
 rationale, not an audit; a voice review before a launch deserves the systematic pass. State

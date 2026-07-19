@@ -21,7 +21,10 @@ prior deliverables in `design/`, and a reminder to follow its Context Protocol
 (`.claude/design-agents/foundations.md` + host `DESIGN.md`) and to write its deliverable to
 `design/critiques/` or `design/specs/` as appropriate.
 
-When it returns, relay the deliverable to the user: top findings or the spec summary,
+If it returns clarifying questions instead of a deliverable, put them to the user via
+AskUserQuestion and re-dispatch with the answers — don't answer on the user's behalf.
+
+When it returns the deliverable, relay it to the user: top findings or the spec summary,
 severity-ordered for critiques, the file path it was written to, and any open questions or
 blockers it raised. If it was blocked on seeing the design (no Figma access or screenshot),
 pass along exactly what it needs.

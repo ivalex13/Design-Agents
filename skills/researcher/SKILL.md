@@ -20,7 +20,10 @@ user's request verbatim, any files/links/paths they referenced, and a reminder t
 Context Protocol (`.claude/design-agents/foundations.md` + host `DESIGN.md`) and to write its
 deliverable to `design/research/`.
 
-When it returns, relay the deliverable to the user: the key findings or the produced
+If it returns clarifying questions instead of a deliverable, put them to the user via
+AskUserQuestion and re-dispatch with the answers — don't answer on the user's behalf.
+
+When it returns the deliverable, relay it to the user: the key findings or the produced
 instrument, the file path it was written to, and any open questions or blockers the
 researcher raised. If it came back blocked (e.g. the question needs real users), present its
 plan for how a human closes the gap.

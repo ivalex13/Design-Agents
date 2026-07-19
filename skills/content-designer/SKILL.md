@@ -21,6 +21,9 @@ whether they want a review or applied changes to the strings in code, and a remi
 follow its Context Protocol (`.claude/design-agents/foundations.md` + host `DESIGN.md`,
 especially Voice & tone) and to write its deliverable to `design/content/`.
 
-When it returns, relay the deliverable to the user: the highest-impact fixes, the
+If it returns clarifying questions instead of a deliverable, put them to the user via
+AskUserQuestion and re-dispatch with the answers — don't answer on the user's behalf.
+
+When it returns the deliverable, relay it to the user: the highest-impact fixes, the
 before/after highlights, the file path it was written to, and any voice or terminology
 decisions it flagged for a human to ratify.

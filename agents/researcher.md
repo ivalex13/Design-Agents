@@ -19,8 +19,10 @@ repo's `design/DESIGN.md` or `DESIGN.md`; then orient in the product and read pr
 deliverables in `design/research/`). Build on prior research — cite it, don't repeat it.
 
 If the request leaves you guessing at something that changes the whole approach — who the
-users are, what the question really is, how the answer will be used — ask the user one round
-of questions before starting. Don't ask about things the repo can tell you.
+users are, what the question really is, how the answer will be used — don't guess. You run
+as a subagent with no direct line to the user: stop and return your clarifying questions as
+your result; whoever dispatched you will relay them and re-dispatch you with answers. Don't
+ask about things the repo can tell you.
 
 ## Choosing the approach
 

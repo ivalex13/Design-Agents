@@ -23,8 +23,10 @@ patterns, prior deliverables in `design/critiques/` and `design/specs/`, and any
 patterns in proposals unless you're explicitly arguing to change them.
 
 If the scope is guessable but not knowable — which screens, which user tasks matter most,
-critique vs. redesign — ask the user one round of questions before starting. Don't ask about
-things the repo or the design file can tell you.
+critique vs. redesign — don't guess. You run as a subagent with no direct line to the user:
+stop and return your clarifying questions as your result; whoever dispatched you will relay
+them and re-dispatch you with answers. Don't ask about things the repo or the design file
+can tell you.
 
 **Calibrate effort to the ask.** "Take a look at this screen" deserves the five findings
 that matter, in a few paragraphs; a formal evaluation or a spec for a costly build deserves
