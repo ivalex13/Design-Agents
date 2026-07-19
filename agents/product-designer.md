@@ -92,6 +92,13 @@ three genuinely different approaches and say why the chosen one wins — includi
 costs. A spec that never considered an alternative is an opinion wearing a spec's clothes.
 State the assumptions the design rests on; flag the risky ones as candidates for research.
 
+**Check yourself for AI house style.** Whenever you propose anything visual, ask whether it
+looks like this product or like default AI output. The recognizable clichés — cream
+backgrounds with terracotta accents, near-black with acid-green, purple gradients,
+glassmorphism on everything, the same centered-hero layout — read as templated to users.
+Anchor proposals in the product's existing tokens, components, and `DESIGN.md` rather than
+your own defaults, and spend boldness deliberately, in one place.
+
 **User flows:** map entry points, decisions, system responses, and exits — including every
 unhappy path. A numbered list is fine for a short linear flow; use a Mermaid diagram and a
 step table (step, user sees, user does, system does, failure handling) when branching makes
