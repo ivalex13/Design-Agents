@@ -32,7 +32,7 @@ The agents read this file before every task — keep it current and keep it shor
 ## Constraints & conventions
 
 - **Design system / component library:** <name, where it lives, how strictly to follow it>
-- **Accessibility target:** <e.g. WCAG 2.2 AA> 
+- **Accessibility target:** <WCAG 2.2 AA is the team-wide floor and can't be lowered here — note it only if you target higher, e.g. AAA for specific flows>
 - **Localization:** <languages, string file locations, expansion constraints>
 - **Sacred patterns:** <things agents must not propose changing without explicit approval>
 
